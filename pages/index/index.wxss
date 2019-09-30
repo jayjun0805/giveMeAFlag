@@ -1,0 +1,385 @@
+page{
+	font-size: 28rpx;
+	line-height: 1.5;
+	background-color: #fff;
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.icon
+{
+	display: inline-block
+}
+
+.txt-ellipsis
+{
+	display: block;
+	white-space: nowrap
+}
+
+.txt-ellipsis,.txt-ellipsis-two
+{
+	text-overflow: ellipsis;
+	overflow: hidden
+}
+
+.txt-ellipsis-two
+{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	word-break: break-all
+}
+
+.flex-hcenter
+{
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
+.flex-hcenter,.flex-vcenter
+{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.flex-vcenter
+{
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.g-vcenter
+{
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
+
+.g-hcenter
+{
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%)
+}
+
+.g-center,.g-hcenter
+{
+	position: absolute;
+	left: 50%
+}
+
+.g-center
+{
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%)
+}
+
+.g-flex-center
+{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column
+}
+
+.center,.g-flex-center,.long-press,.long-press .l-img,.long-press .l-tips,.operation-box,.operation-btns,.operation-header
+{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
+#app
+{
+	min-height: 100%;
+	width: 100%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-color: #ff4b3d
+}
+
+.wrapper
+{
+	position: relative;
+	overflow-x: hidden;
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	background-image: url(https://raw.githubusercontent.com/jayjun0805/giveMeAFlag/master/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.operation-header
+{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column
+}
+
+.operation-header view
+{
+	background-size: contain;
+	background-repeat: no-repeat
+}
+
+.operation-header .h-logo
+{
+  margin-top: 50rpx;
+}
+
+.operation-header .h-logo image
+{
+	width: 243rpx;
+	height: 90rpx;
+}
+
+.operation-header .h-title
+{
+	margin-top: 10rpx;
+	width: 525rpx;
+	height: 252rpx;
+	background-image: url(https://6f6e-online-e879a3-1258444488.tcb.qcloud.la/70/logo2.png?sign=4ca02e5bf2ff339a011c3466edb5da9e&t=1569381098)
+}
+
+.operation-header .h-slogan
+{
+	margin-top: 15rpx;
+	width: 420rpx;
+	height: 34rpx;
+	background-image: url(https://6f6e-online-e879a3-1258444488.tcb.qcloud.la/70/logo3.png?sign=bd4bca74f49b34568d965e8ca0fde038&t=1569381131)
+}
+
+.operation-box
+{
+	margin-top: 25rpx
+}
+
+.operation-box .next,.operation-box .prev
+{
+	background-image: url(https://6f6e-online-e879a3-1258444488.tcb.qcloud.la/70/btn.png?sign=e1cf1aedf2ad606fc3535fd81e06a518&t=1569381156);
+	background-size: contain;
+	border-radius: 50%;
+	width: 91rpx;
+	height: 91rpx;
+}
+
+.operation-box .prev
+{
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg)
+}
+
+.operation-box .operation-img
+{
+	margin: 0 30rpx;
+	background: #fff;
+	border: 10rpx solid #fbe6b5;
+	border-radius: 20rpx;
+	font-size: 0
+}
+
+.operation-box .operation-img .cropper-content
+{
+	border-radius: 50rpx;
+	position: relative;
+	width: 400rpx;
+	height: 400rpx;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	overflow: hidden
+}
+
+.operation-btns
+{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	margin-top: 40rpx
+}
+
+.operation-btns .btn{
+  border: none;
+}
+
+.operation-btns .o-btn
+{
+	width: 460rpx;
+	height: 162rpx;
+	background-size: 100% 100%
+}
+
+.operation-tips{
+  text-align: center;
+}
+
+.operation-tips view{
+    position: absolute;
+    bottom: 20rpx;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 24rpx;
+    font-weight: 400;
+    color: rgba(255,255,255,.8)
+}
+
+.operation-tips text{
+  padding: 0 10rpx;
+}
+
+.cropper-drag-box
+{
+	position: relative;
+	z-index: 9999999
+}
+
+.frame-image
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%
+}
+
+.van-popup
+{
+	background-color: hsla(0,0%,100%,0)
+}
+
+.long-press
+{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	width: 12.975rpx;
+	height: 16.25rpx;
+	background-image: url(https://mat1.gtimg.com/bbs/static/20190829-longpress.svg);
+	background-size: cover
+}
+
+.long-press .l-img
+{
+	width: 100%;
+	height: 13.375rpx
+}
+
+.long-press .l-img img
+{
+	width: 10.7rpx;
+	height: 10.7rpx
+}
+
+.long-press .l-tips
+{
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	font-size: 20rpx;
+	font-weight: 700
+}
+
+.first-tips
+{
+	position: relative;
+	margin-top: 160rpx;
+	margin-left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	width: 440rpx;
+	height: 155rpx;
+}
+
+.first-tips .center-bg
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 440rpx;
+	height: 155rpx;
+	background-size: contain
+}
+
+.first-tips .top-arrow
+{
+	right: 0;
+	top: 0
+}
+
+.first-tips .bottom-arrow,.first-tips .top-arrow
+{
+	position: absolute;
+	width: .825rpx;
+	height: 22rpx;
+}
+
+.first-tips .bottom-arrow
+{
+	left: 0;
+	bottom: 0
+}
+
+.first-text
+{
+	color: #fff;
+	font-size: 20rpx;
+	text-align: center
+}
+
+.cropper-box-canvas
+{
+	width: 400rpx;
+	height: 400rpx;
+}
+
+.cropper-box-canvas image{
+  width: 100%;
+  height: 100%;
+}
+
+.fade-enter-active,.fade-leave-active
+{
+	-webkit-transition: opacity .5s;
+	transition: opacity .5s
+}
+
+.fade-enter,.fade-leave-to
+{
+	opacity: 0
+}
+
+.upload-image-shell {
+    position: absolute;
+    top: -2000px;
+    left: -2000px;
+    width: 700px;
+    height: 700px;
+}
+
+.upload-image-shell canvas {
+    width: 100%;
+    height: 100%;
+}
