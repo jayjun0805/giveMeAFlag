@@ -120,7 +120,7 @@ page{
 	width: 100%;
 	height: 100vh;
 	margin: 0 auto;
-	background-image: url(https://raw.githubusercontent.com/jayjun0805/giveMeAFlag/master/bg.png);
+	background-image: url(https://raw.githubusercontent.com/jayjun0805/giveMeAFlag/master/assets/images/bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -158,7 +158,7 @@ page{
 	margin-top: 10rpx;
 	width: 525rpx;
 	height: 252rpx;
-	background-image: url(https://6f6e-online-e879a3-1258444488.tcb.qcloud.la/70/logo2.png?sign=4ca02e5bf2ff339a011c3466edb5da9e&t=1569381098)
+	background-image: url(https://raw.githubusercontent.com/jayjun0805/giveMeAFlag/master/assets/images/logo2.png)
 }
 
 .operation-header .h-slogan
@@ -166,7 +166,7 @@ page{
 	margin-top: 15rpx;
 	width: 420rpx;
 	height: 34rpx;
-	background-image: url(https://6f6e-online-e879a3-1258444488.tcb.qcloud.la/70/logo3.png?sign=bd4bca74f49b34568d965e8ca0fde038&t=1569381131)
+	background-image: url(https://raw.githubusercontent.com/jayjun0805/giveMeAFlag/master/assets/images/logo3.png)
 }
 
 .operation-box
@@ -176,7 +176,7 @@ page{
 
 .operation-box .next,.operation-box .prev
 {
-	background-image: url(https://6f6e-online-e879a3-1258444488.tcb.qcloud.la/70/btn.png?sign=e1cf1aedf2ad606fc3535fd81e06a518&t=1569381156);
+	background-image: url(https://raw.githubusercontent.com/jayjun0805/giveMeAFlag/master/assets/images/btn.png);
 	background-size: contain;
 	border-radius: 50%;
 	width: 91rpx;
@@ -267,39 +267,6 @@ page{
 .van-popup
 {
 	background-color: hsla(0,0%,100%,0)
-}
-
-.long-press
-{
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	width: 12.975rpx;
-	height: 16.25rpx;
-	background-image: url(https://mat1.gtimg.com/bbs/static/20190829-longpress.svg);
-	background-size: cover
-}
-
-.long-press .l-img
-{
-	width: 100%;
-	height: 13.375rpx
-}
-
-.long-press .l-img img
-{
-	width: 10.7rpx;
-	height: 10.7rpx
-}
-
-.long-press .l-tips
-{
-	-webkit-box-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	font-size: 20rpx;
-	font-weight: 700
 }
 
 .first-tips
