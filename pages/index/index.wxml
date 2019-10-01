@@ -8,14 +8,14 @@
 	            <view class="h-title" style="{{isIphoneX ? 'margin-top: 60rpx;' : ''}}"></view>
 	            <view class="h-slogan"></view>
 	        </view>
-	        <view class="operation-box" style="{{isIphoneX ? 'margin-top: 80rpx;' : ''}}">
+	        <view class="operation-box" style="{{isIphoneX ? 'margin-top: 100rpx;' : ''}}">
 	            <view class="prev" bindtap="prevTap"></view>
 	            <view class="operation-img">
 	                <view class="cropper-content">
 	                    <view class="vue-cropper">
 	                        <view class="cropper-box">
                             <view class="upload-image-shell">
-                                <canvas canvasId="upload-canvas" catchtouchcancel="touchCancel" catchtouchend="touchEnd" catchtouchmove="touchMove" catchtouchstart="touchStart" disableScroll="true"></canvas>
+                                <canvas canvasId="upload-canvas" disableScroll="true"></canvas>
                             </view>
 	                          <view class="cropper-box-canvas" style="transform: scale(1, 1) translate3d(0px, 0px, 0px) rotateZ(0deg);">
 	                                <image src="{{ avatarUrl ? avatarUrl : '/assets/images/untitled.png'}}" />
@@ -27,7 +27,7 @@
 	            </view>
 	            <view class="next" bindtap="nextTap"></view>
 	        </view>
-	        <view class="operation-btns" style="{{isIphoneX ? 'margin-top: 40rpx;' : ''}}">
+	        <view class="operation-btns" style="{{isIphoneX ? 'margin-top: 80rpx;' : ''}}">
               <button wx:if="{{ !avatarUrl }}" class="btn" open-type="getUserInfo" bindgetuserinfo="getUserInfo" plain="true">
                   <image class="o-btn" mode="aspectFill" src="/assets/images/btn3.png"></image>
               </button>

@@ -58,16 +58,10 @@ Page({
     }
   },
 
-  // initCamera: function(file){
-  //   console.log(file);
-  //   ctx.drawImage(file, 0, 0, 700, 700);
-  //   ctx.draw();
-  // },
-
   saveImg: function () {
     // console.log(this.data.current);
 
-    let currentSrc = "cloud://online-e879a3.6f6e-online-e879a3/70/head-"+this.data.current+".png";
+    let currentSrc = "https://raw.githubusercontent.com/jayjun0805/giveMeAFlag/master/assets/images/head-"+this.data.current+".png";
 
     // console.log(currentSrc);
 
@@ -133,18 +127,6 @@ Page({
       }
     })
 
-  },
-
-  aboutTap: function(){
-    wx.navigateTo({
-      url: '/pages/about/index'
-    })
-  },
-
-  moreTap: function(){
-    wx.navigateTo({
-      url: '/pages/index/index'
-    })
   },
 
   /**
