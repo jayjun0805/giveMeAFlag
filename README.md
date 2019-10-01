@@ -1,7 +1,7 @@
 # giveMeAFlag
 给我一面国旗小程序
 
-### 预览：
+#### 预览：
 
 <img src="https://raw.githubusercontent.com/jayjun0805/giveMeAFlag/master/assets/images/flag.jpg">
 
